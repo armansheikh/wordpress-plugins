@@ -1,0 +1,1481 @@
+/*
+    grey background     : #fbfbfc
+    grey border         : #e1e1e1
+    grey dark text      : #9a9a9a
+    grey light text     : #a3a3a3
+    #02bb82 text        : #02bb82
+ */
+/* Custom Fonts */
+/* Metropolis Regular */
+@font-face {
+  font-family: "Metropolis Regular";
+  src: url("../fonts/ttf/Metropolis-Regular.ttf") format("truetype");
+}
+
+/* Metropolis ExtraBold */
+@font-face {
+  font-family: "Metropolis ExtraBold";
+  src: url("../fonts/ttf/Metropolis-ExtraBold.ttf") format("truetype");
+}
+
+/* Metropolis Bold */
+@font-face {
+  font-family: "Metropolis Bold";
+  src: url("../fonts/ttf/Metropolis-Bold.ttf") format("truetype");
+}
+
+/* Metropolis Bold */
+@font-face {
+  font-family: "Metropolis SemiBold";
+  src: url("../fonts/ttf/Metropolis-SemiBold.ttf") format("truetype");
+}
+
+/* Metropolis Black*/
+@font-face {
+  font-family: "Metropolis Black";
+  src: url("../fonts/ttf/Metropolis-Black.ttf") format("truetype");
+}
+
+/* Metropolis Light*/
+@font-face {
+  font-family: "Metropolis Light";
+  src: url("../fonts/ttf/Metropolis-Light.ttf") format("truetype");
+}
+
+/* Metropolis Medium*/
+@font-face {
+  font-family: "Metropolis Medium";
+  src: url("../fonts/ttf/Metropolis-Medium.ttf") format("truetype");
+}
+
+/* Metropolis Thin*/
+@font-face {
+  font-family: "Metropolis Thin";
+  src: url("../fonts/ttf/Metropolis-Thin.ttf") format("truetype");
+}
+
+/* Custom Fonts Ends */
+body.page.im-deals-vue-filters-css select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+body.page.im-deals-vue-filters-css select::-ms-expand {
+  display: none;
+}
+
+@media screen and (min-width: 0\0) {
+  body.page.im-deals-vue-filters-css select {
+    background: none \9;
+    padding: 5px \9;
+  }
+}
+
+body.page.im-deals-vue-filters-css .select-wrap {
+  position: relative;
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+body.page.im-deals-vue-filters-css .select-wrap:after {
+  content: "\f107";
+  position: absolute;
+  top: 25px;
+  right: 30px;
+  color: #02bb82;
+  z-index: 1;
+}
+
+body.page.im-deals-vue-filters-css {
+  background: #fff;
+}
+
+body.page.im-deals-vue-filters-css .container {
+  padding: 0px !important;
+  max-width: 1830px !important;
+}
+
+body.page.im-deals-vue-filters-css .inside-article {
+  padding: 0px !important;
+  margin-top: 2rem;
+}
+
+body.page.im-deals-vue-filters-css .grey-border {
+}
+
+body.page.im-deals-vue-filters-css .rounded-border {
+  border-radius: 5px !important;
+}
+
+body.page.im-deals-vue-filters-css .zero-padding {
+  padding: 0 !important;
+}
+
+body.page.im-deals-vue-filters-css .zero-margin {
+  margin: 0 !important;
+}
+
+body.page.im-deals-vue-filters-css .white-bg {
+}
+
+body.page.im-deals-vue-filters-css .grey-bg {
+  background-color: #fbfbfc !important;
+}
+
+#imdeals-vue,
+#vue-filter-app {
+  font-family: "Metropolis Medium" !important;
+}
+
+body.page.im-deals-vue-filters-css main#main {
+  margin: 0px;
+}
+
+body.page.im-deals-vue-filters-css .page-hero.grid-container.grid-parent {
+  display: none;
+}
+
+body.page.im-deals-vue-filters-css #page {
+  width: 100%;
+  max-width: none;
+}
+
+body.page.im-deals-vue-filters-css .page .inside-article {
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+}
+
+body.page.im-deals-vue-filters-css #top-page-sec.full-width {
+  width: 100%;
+}
+
+body.page.im-deals-vue-filters-css .left-content {
+  width: 19.5%;
+  display: inline-block;
+}
+
+body.page.im-deals-vue-filters-css .mid-content {
+  width: 50.3%;
+  display: inline-block;
+}
+
+body.page.im-deals-vue-filters-css .right-content {
+  width: 26%;
+  display: inline-block;
+}
+
+body.page.im-deals-vue-filters-css .search-panel__filters h3,
+body.page.im-deals-vue-filters-css #top-page-sec h3 {
+  margin: 15px 0;
+}
+
+body.page.im-deals-vue-filters-css .ais-SortBy,
+body.page.im-deals-vue-filters-css #searchbar {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+body.page.im-deals-vue-filters-css #searchbar i {
+  position: absolute;
+  top: 35%;
+  left: 3.2%;
+  color: #02bb82;
+}
+
+body.page.im-deals-vue-filters-css #latest-deals .sort-by,
+body.page.im-deals-vue-filters-css .ais-SortBy select,
+body.page.im-deals-vue-filters-css #searchbar .search-field {
+  /*padding-right: 60px;*/
+}
+
+body.page.im-deals-vue-filters-css #latest-deals .sort-by,
+body.page.im-deals-vue-filters-css .ais-SortBy select,
+body.page.im-deals-vue-filters-css #searchbar .search-field {
+  opacity: 1;
+  width: 100%;
+  height: 65px;
+}
+
+body.page.im-deals-vue-filters-css .ais-SortBy select:focus,
+body.page.im-deals-vue-filters-css .ais-SortBy select {
+  color: #000;
+  background-color: #fbfbfc;
+  text-overflow: ellipsis;
+}
+
+body.page.im-deals-vue-filters-css #searchbar .search-field {
+  padding-left: 8.5%;
+}
+
+body.page.im-deals-vue-filters-css ::placeholder {
+  color: #bebebe !important;
+  opacity: 1;
+}
+
+body.page.im-deals-vue-filters-css :-ms-input-placeholder {
+  color: #bebebe !important;
+  opacity: 1;
+}
+
+body.page.im-deals-vue-filters-css ::-ms-input-placeholder {
+  color: #bebebe !important;
+  opacity: 1;
+}
+
+body.page.im-deals-vue-filters-css #latest-deals {
+  position: relative;
+  width: 91%;
+  margin-left: 9%;
+}
+
+body.page.im-deals-vue-filters-css #latest-deals select.sort-by {
+  color: #02bb82 !important;
+  padding: 25px;
+}
+
+body.page.im-deals-vue-filters-css .grey-text {
+  color: #939393 !important;
+}
+
+body.page.im-deals-vue-filters-css .green-text {
+  color: #02bb82;
+}
+
+.accordion-header .green-text {
+  color: #000 !important;
+  font-family: "Metropolis Medium";
+}
+
+body.page.im-deals-vue-filters-css
+  .grid.im-deals
+  .col-grid
+  .card-body
+  .deal-details
+  .offer-by
+  h3
+  a:hover {
+  color: #000 !important;
+  font-family: "Metropolis Medium";
+}
+
+h3.title a {
+  color: #02bb82 !important;
+  font-family: "Metropolis Medium";
+}
+
+body.page.im-deals-vue-filters-css #applied-filters p {
+  display: inline-block;
+}
+
+body.page.im-deals-vue-filters-css #applied-filters p span {
+  padding: 5px;
+  margin: 5px;
+}
+
+body.page.im-deals-vue-filters-css #applied-filters p span i {
+  cursor: pointer;
+}
+
+body.page.im-deals-vue-filters-css ul.ais-numeric-menu-list,
+body.page.im-deals-vue-filters-css .ais-RefinementList ul,
+body.page.im-deals-vue-filters-css #left-sidebar.left-box ul li {
+  list-style-type: none;
+  padding: 0px;
+  /*margin-top: 25%;*/
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-left: 12.3%;
+}
+
+body.page.im-deals-vue-filters-css .lbl {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body.page.im-deals-vue-filters-css .lbl input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+body.page.im-deals-vue-filters-css .checkmark {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #fff;
+  border: 1px solid #e1e1e1;
+  border-radius: 3px;
+}
+
+body.page.im-deals-vue-filters-css .lbl:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+body.page.im-deals-vue-filters-css .lbl input:checked ~ .checkmark {
+  background-color: #02bb82;
+}
+
+body.page.im-deals-vue-filters-css .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+body.page.im-deals-vue-filters-css .lbl input:checked ~ .checkmark:after {
+  display: block;
+}
+
+body.page.im-deals-vue-filters-css .lbl .checkmark:after {
+  left: 4px;
+  top: 0px;
+  width: 4px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+body.page.im-deals-vue-filters-css #right-content-area {
+  width: 83%;
+  padding-top: 0px;
+}
+
+body.page.im-deals-vue-filters-css #left-sidebar {
+  margin-top: 30px;
+}
+
+body.page.im-deals-vue-filters-css section.newsletter-wrapper {
+  padding-top: 60px;
+}
+
+body.page.im-deals-vue-filters-css .page-id-12827 .inside-article {
+  padding-bottom: 0px !important;
+}
+
+body.page.im-deals-vue-filters-css a.show-more-results {
+  border: 2px solid #02bb82;
+  background-color: #fff;
+}
+
+body.page.im-deals-vue-filters-css section.featured-deals {
+  padding-top: 0px !important;
+}
+
+body.page.im-deals-vue-filters-css .browse-deals-button .button {
+  margin-top: 75px;
+}
+
+body.page.im-deals-vue-filters-css #vue-filter-app {
+  display: none;
+}
+
+body.page.im-deals-vue-filters-css .ais-NumericMenu,
+body.page.im-deals-vue-filters-css .ais-RefinementList {
+  padding-bottom: 6%;
+}
+
+body.page.im-deals-vue-filters-css .ais-RefinementList:first-child {
+  margin-top: 0px;
+}
+
+body.page.im-deals-vue-filters-css .accordion-header,
+body.page.im-deals-vue-filters-css .ais-NumericMenu,
+body.page.im-deals-vue-filters-css .ais-RefinementList {
+  background-color: #fbfbfc !important;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px !important;
+  position: relative;
+}
+
+body.page.im-deals-vue-filters-css .widget-heading-wrap {
+  position: relative;
+  cursor: pointer;
+}
+
+body.page.im-deals-vue-filters-css .widget-heading-wrap h4.widget-heading {
+  margin-top: 25px;
+  margin-left: 13%;
+  margin-bottom: 25px;
+  padding-right: 70px;
+}
+
+body.page.im-deals-vue-filters-css
+  .widget-heading-wrap
+  i.accordion-arrow.fa.fa-angle-up {
+  position: absolute;
+  right: 30px;
+  top: 8px;
+}
+
+body.page.im-deals-vue-filters-css .widget-heading-wrap h4.widget-heading,
+body.page.im-deals-vue-filters-css
+  .widget-heading-wrap
+  i.accordion-arrow.fa.fa-angle-up {
+  color: #000 !important;
+  font-family: "Metropolis SemiBold";
+}
+
+body.page.im-deals-vue-filters-css .ais-RefinementList ul li {
+  margin-bottom: 10px;
+}
+
+body.page.im-deals-vue-filters-css
+  .ais-RefinementList
+  ul
+  li
+  span.ais-RefinementList-count {
+  display: none;
+}
+
+body.page.im-deals-vue-filters-css label.ais-RefinementList-label {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+body.page.im-deals-vue-filters-css input.ais-RefinementList-checkbox {
+  margin-right: 10px;
+  margin-top: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+body.page.im-deals-vue-filters-css span.ais-RefinementList-labelText {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  color: #9a9a9a;
+}
+
+body.page.im-deals-vue-filters-css li.ais-RefinementList-item {
+  width: 100%;
+}
+
+body.page.im-deals-vue-filters-css
+  .ais-Pagination-item--selected
+  .ais-Pagination-link {
+  color: #fff !important;
+  background-color: #02bb82 !important;
+  border-color: #02bb82 !important;
+}
+
+body.page.im-deals-vue-filters-css .ais-Pagination-item .ais-Pagination-link {
+  color: #02bb82;
+  border-color: #02bb82 !important;
+}
+
+body.page.im-deals-vue-filters-css li.ais-Hits-item {
+  border: 1px solid #e1e1e1;
+  border-radius: 5px !important;
+}
+
+body.page.im-deals-vue-filters-css .ais-Autocomplete li {
+  list-style-type: none;
+  padding: 0.25rem;
+  border-bottom: 1px solid #f5f1f1;
+}
+
+body.page.im-deals-vue-filters-css .ais-Autocomplete li span.ais-Highlight {
+  color: #02bb82;
+}
+
+body.page.im-deals-vue-filters-css .inside-article {
+  margin-bottom: 5rem;
+}
+
+body.page.im-deals-vue-filters-css .ais-Hits {
+  clear: both;
+}
+
+body.page.im-deals-vue-filters-css .hide-me {
+  display: none;
+}
+
+/* Styling from sample start */
+body.page.im-deals-vue-filters-css body,
+body.page.im-deals-vue-filters-css h1 {
+  margin: 0;
+  padding: 0;
+}
+
+body.page.im-deals-vue-filters-css body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body.page.im-deals-vue-filters-css .ais-Highlight-highlighted {
+  background: #ffc168;
+  font-style: normal;
+}
+
+body.page.im-deals-vue-filters-css .header {
+  display: flex;
+  align-items: center;
+  min-height: 50px;
+  padding: 0.5rem 1rem;
+  background-image: linear-gradient(to right, #4dba87, #2f9088);
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+body.page.im-deals-vue-filters-css .header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+body.page.im-deals-vue-filters-css .header-title {
+  font-weight: normal;
+}
+
+body.page.im-deals-vue-filters-css .header-title::after {
+  content: " ▸ ";
+  padding: 0 0.5rem;
+}
+
+body.page.im-deals-vue-filters-css .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+body.page.im-deals-vue-filters-css .search-panel {
+  /*display: flex;*/
+}
+
+body.page.im-deals-vue-filters-css .search-panel__filters {
+  display: block;
+  margin-right: 2%;
+  width: 19.2%;
+  margin-left: 2%;
+}
+
+body.page.im-deals-vue-filters-css .search-panel__results {
+  flex: 4;
+}
+
+body.page.im-deals-vue-filters-css .searchbox {
+  margin-bottom: 2rem;
+}
+
+body.page.im-deals-vue-filters-css .pagination {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+body.page.im-deals-vue-filters-css ol.grid.im-deals {
+  clear: both;
+}
+
+/* Styling from sample end */
+body.page.im-deals-vue-filters-css ol.grid.im-deals li {
+  padding: 20px !important;
+}
+
+body.page.im-deals-vue-filters-css .ais-refinement-list-count {
+  display: none;
+}
+
+body.page.im-deals-vue-filters-css button.ais-refinement-list-show-more:focus,
+body.page.im-deals-vue-filters-css button.ais-refinement-list-show-more:hover,
+body.page.im-deals-vue-filters-css button.ais-refinement-list-show-more {
+  background: transparent;
+  color: #02bb82;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+body.page.im-deals-vue-filters-css .accordion-wrap {
+  position: relative;
+  margin-top: 45px;
+}
+
+body.page.im-deals-vue-filters-css .accordion-wrap:first-of-type {
+  margin-top: 0px;
+}
+
+body.page.im-deals-vue-filters-css .accordion-header {
+  margin-top: 10%;
+}
+
+body.page.im-deals-vue-filters-css .accordion-header {
+  margin-top: 10%;
+  padding: 1% 10%;
+  color: #02bb82;
+}
+
+body.page.im-deals-vue-filters-css .filter-wrapper p {
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  top: 0%;
+  width: 100%;
+  height: 65px;
+}
+
+body.page.im-deals-vue-filters-css i.accordion-arrow.fa.fa-angle-down,
+body.page.im-deals-vue-filters-css .filter-wrapper p .accordion-arrow {
+  float: right;
+  color: #02bb82;
+  position: absolute;
+  right: 30px;
+}
+
+body.page.im-deals-vue-filters-css i.accordion-arrow.fa.fa-angle-down {
+  top: 36%;
+}
+
+body.page.im-deals-vue-filters-css label.featured-checkbox.lbl {
+  top: 36%;
+  float: right;
+  color: #02bb82;
+  position: absolute;
+  right: 8px;
+}
+
+body.page.im-deals-vue-filters-css .featured-accordion .accordion-header {
+  padding: 1% 25% 1% 10%;
+}
+
+body.page.im-deals-vue-filters-css .accordion-header:hover,
+body.page.im-deals-vue-filters-css .filter-wrapper p:hover {
+  cursor: pointer;
+}
+
+body.page.im-deals-vue-filters-css .dark-grey-text {
+  color: #9a9a9a !important;
+}
+
+body.page.im-deals-vue-filters-css span.ais-refinement-list-labelText {
+  color: #9a9a9a;
+}
+
+body.page.im-deals-vue-filters-css .show-more-results-wrap {
+  display: block;
+  width: 100%;
+}
+
+body.page.im-deals-vue-filters-css button.show-more-results {
+  text-align: center;
+  display: block;
+  padding: 20px;
+  margin-top: 75px !important;
+  margin: 0 auto;
+  width: 225px;
+  background: #fff;
+  color: #02bb82;
+  border: 1px solid #02bb82;
+  font-family: "Metropolis SemiBold" !important;
+}
+
+body.page.im-deals-vue-filters-css .middle-bar {
+  width: 97%;
+  float: left;
+  margin-left: 2%;
+}
+
+body.page.im-deals-vue-filters-css .selected-categories {
+  float: left;
+  width: 98%;
+}
+
+body.page.im-deals-vue-filters-css
+  .middle-bar
+  .ais-RefinementList.selected-categories {
+}
+
+body.page.im-deals-vue-filters-css .ais-ClearRefinements {
+  display: inline;
+}
+
+body.page.im-deals-vue-filters-css button.ais-ClearRefinements-button:hover,
+body.page.im-deals-vue-filters-css button.ais-ClearRefinements-button {
+  background: transparent;
+  outline: none;
+  border: none;
+  position: relative;
+  box-shadow: none;
+  color: #02bb82;
+  padding-bottom: 0px;
+  top: 2px;
+}
+
+body.page.im-deals-vue-filters-css .middle-bar .total-results {
+  float: right;
+  margin-right: 1.8%;
+  text-align: right;
+}
+
+body.page.im-deals-vue-filters-css p.short-description {
+  color: #02bb82;
+}
+
+body.page.im-deals-vue-filters-css .im-deals .deal-details {
+  /*height: 28%;*/
+}
+
+body.page.im-deals-vue-filters-css .search-panel__header {
+  display: flex;
+}
+
+body.page.im-deals-vue-filters-css .search-panel__header .finder {
+  width: 24.5%;
+}
+
+body.page.im-deals-vue-filters-css .ais-Autocomplete {
+  width: 48.9%;
+}
+
+body.page.im-deals-vue-filters-css .ais-SortBy {
+  width: 23.4%;
+  margin-left: 2.3%;
+}
+
+body.page.im-deals-vue-filters-css .search-panel__header .finder h3 {
+  margin-left: 18%;
+  margin-top: 4.5%;
+}
+
+body.page.im-deals-vue-filters-css .main-search-area {
+  display: flex;
+}
+
+body.page.im-deals-vue-filters-css span.applied-label {
+  position: relative;
+  top: 3px;
+}
+
+body.page.im-deals-vue-filters-css span.checked-category {
+  border: 2px solid #e1e1e1;
+  padding: 2px 2px 0px 2px;
+  text-transform: uppercase;
+  font-size: 9px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  margin-right: 10px;
+  letter-spacing: 1px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+body.page.im-deals-vue-filters-css span.checked-category i {
+  font-size: 0.6rem;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  cursor: pointer;
+}
+
+body.page.im-deals-vue-filters-css span.checked-category a {
+  margin-right: 10px;
+}
+
+body.page.im-deals-vue-filters-css .deals-stats {
+  display: inline !important;
+  color: inherit !important;
+}
+
+body.page.im-deals-vue-filters-css .deals-stats-text {
+  color: inherit !important;
+}
+
+body.page.im-deals-vue-filters-css .cat-feature-img-wrap {
+}
+
+body.page.im-deals-vue-filters-css .cat-feature-img {
+  position: absolute;
+  top: -6px;
+}
+
+body.page.im-deals-vue-filters-css select.ais-sort-by-select {
+  font-family: "Metropolis Medium";
+  z-index: 2;
+  position: relative;
+  background: transparent !important;
+}
+
+body.page.im-deals-vue-filters-css p.deal-count {
+  margin-top: 7px;
+  color: #8c8c8c;
+  font-size: 16px;
+}
+
+body.page.im-deals-vue-filters-css p.deal-count,
+body.page.im-deals-vue-filters-css p.short-description,
+body.page.im-deals-vue-filters-css .deal-details h3 {
+  margin-bottom: 0px;
+}
+
+body.page.im-deals-vue-filters-css p.deal-count,
+body.page.im-deals-vue-filters-css p.short-description,
+body.page.im-deals-vue-filters-css .im-deals .deal-details h3.title a {
+  text-overflow: ellipsis;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+body.page.im-deals-vue-filters-css .lds-roller {
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  z-index: 1;
+}
+
+body.page.im-deals-vue-filters-css .lds-roller div {
+  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 40px 40px;
+}
+
+body.page.im-deals-vue-filters-css .lds-roller div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #00993f;
+  margin: -4px 0 0 -4px;
+}
+
+body.page.im-deals-vue-filters-css .lds-roller div:nth-child(1) {
+  animation-delay: -0.036s;
+}
+
+body.page.im-deals-vue-filters-css .lds-roller div:nth-child(1):after {
+  top: 63px;
+  left: 63px;
+}
+
+body.page.im-deals-vue-filters-css .lds-roller div:nth-child(2) {
+  animation-delay: -0.072s;
+}
+
+body.page.im-deals-vue-filters-css .lds-roller div:nth-child(2):after {
+  top: 68px;
+  left: 56px;
+}
+
+body.page.im-deals-vue-filters-css .lds-roller div:nth-child(3) {
+  animation-delay: -0.108s;
+}
+
+body.page.im-deals-vue-filters-css .lds-roller div:nth-child(3):after {
+  top: 71px;
+  left: 48px;
+}
+
+body.page.im-deals-vue-filters-css .lds-roller div:nth-child(4) {
+  animation-delay: -0.144s;
+}
+
+body.page.im-deals-vue-filters-css .lds-roller div:nth-child(4):after {
+  top: 72px;
+  left: 40px;
+}
+
+body.page.im-deals-vue-filters-css .lds-roller div:nth-child(5) {
+  animation-delay: -0.18s;
+}
+
+body.page.im-deals-vue-filters-css .lds-roller div:nth-child(5):after {
+  top: 71px;
+  left: 32px;
+}
+
+body.page.im-deals-vue-filters-css .lds-roller div:nth-child(6) {
+  animation-delay: -0.216s;
+}
+
+body.page.im-deals-vue-filters-css .lds-roller div:nth-child(6):after {
+  top: 68px;
+  left: 24px;
+}
+
+body.page.im-deals-vue-filters-css .lds-roller div:nth-child(7) {
+  animation-delay: -0.252s;
+}
+
+body.page.im-deals-vue-filters-css .lds-roller div:nth-child(7):after {
+  top: 63px;
+  left: 17px;
+}
+
+body.page.im-deals-vue-filters-css .lds-roller div:nth-child(8) {
+  animation-delay: -0.288s;
+}
+
+body.page.im-deals-vue-filters-css .lds-roller div:nth-child(8):after {
+  top: 56px;
+  left: 12px;
+}
+
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.ui.modal > .close {
+  top: 1rem;
+  right: 0rem;
+  padding: 0;
+  color: #000;
+}
+
+body.page.im-deals-vue-filters-css .featured-accordion h3 {
+  position: relative;
+}
+
+body.page.im-deals-vue-filters-css .accordion-wrap:first-of-type {
+  margin-top: 45px;
+}
+
+.save-deal-message {
+  display: none;
+}
+
+body.page.im-deals-vue-filters-css
+  .grid.im-deals
+  .col-grid
+  .card-body
+  .deal-details
+  .offer-by
+  h3
+  a {
+  color: #000;
+  font-family: "Metropolis Medium";
+}
+
+body.page.im-deals-vue-filters-css
+  .grid.im-deals
+  .col-grid
+  .card-body
+  .deal-details
+  .offer-by
+  h3
+  a:hover {
+  color: #7e7e7e;
+}
+
+@media only screen and (max-width: 991px) {
+  .ui.modal > .close {
+    top: 1rem;
+    right: 0rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ui.modal > .close {
+    top: 1rem;
+    right: 1rem;
+  }
+}
+
+/* Global Font Size */
+body.page.im-deals-vue-filters-css .search-panel__header .finder h3,
+body.page.im-deals-vue-filters-css #top-page-sec h3 {
+  font-size: 1.7rem;
+}
+
+body.page.im-deals-vue-filters-css #searchbar i {
+  font-size: 1.4rem;
+}
+
+body.page.im-deals-vue-filters-css .widget-heading-wrap h4.widget-heading,
+body.page.im-deals-vue-filters-css #latest-deals .sort-by,
+body.page.im-deals-vue-filters-css .ais-SortBy select,
+body.page.im-deals-vue-filters-css #searchbar .search-field,
+body.page.im-deals-vue-filters-css .search-panel__filters h3 {
+  font-size: 1.3rem;
+}
+body.page.im-deals-vue-filters-css .deal-details h3 a span,
+body.page.im-deals-vue-filters-css .deal-details h3 {
+  font-size: 1.25rem;
+}
+body.page.im-deals-vue-filters-css .middle-bar,
+body.page.im-deals-vue-filters-css .header-title,
+body.page.im-deals-vue-filters-css .header-subtitle {
+  font-size: 1.1rem;
+}
+
+body.page.im-deals-vue-filters-css .lbl,
+body.page.im-deals-vue-filters-css .ais-RefinementList ul,
+body.page.im-deals-vue-filters-css #applied-filters p span,
+body.page.im-deals-vue-filters-css button.show-more-results,
+body.page.im-deals-vue-filters-css ul.ais-numeric-menu-list,
+body.page.im-deals-vue-filters-css #left-sidebar.left-box ul li {
+  font-size: 1rem;
+}
+
+/*
+ * Media Query Understandings
+    If [device width] is less than or equal to 600px, then do {}
+    @media only screen and (max-width: 600px)  {}
+    If [device width] is greater than or equal to 600px, then do {}
+    @media only screen and (min-width: 600px)  {}
+*/
+/* Media Queries For Responsive Screens Starts */
+@media all and (max-width: 1625px) and (min-width: 1525px) {
+  .im-deals .deal-button button,
+  .deal-widget-wrapper button {
+    letter-spacing: 0px;
+  }
+
+  .browse-deals-button .button .icon-right,
+  .im-deals .deal-button button .icon-right {
+    padding-left: 6px;
+  }
+
+  .coupon-code-label {
+    margin-left: 0px;
+    padding: 17px;
+    font-size: 1rem;
+  }
+
+  .coupon-code-label::after {
+    border-left: 46px solid #02bb82;
+    right: -43px;
+  }
+}
+
+@media all and (max-width: 1526px) and (min-width: 1426px) {
+  .im-deals .deal-button button,
+  .deal-widget-wrapper button {
+    letter-spacing: 0px;
+  }
+
+  .browse-deals-button .button .icon-right,
+  .im-deals .deal-button button .icon-right {
+    padding-left: 0px;
+  }
+
+  .coupon-code-label {
+    margin-left: 0px;
+    padding: 18px 17px 19px 17px;
+    font-size: 0.9rem;
+  }
+
+  .coupon-code-label::after {
+    border-left: 46px solid #02bb82;
+    right: -43px;
+  }
+}
+
+@media all and (max-width: 1300px) {
+  body.page.im-deals-vue-filters-css .accordion-header i.fa.fa-bolt {
+    display: none;
+  }
+}
+@media all and (max-width: 1425px) and (min-width: 1270px) {
+  body.page.im-deals-vue-filters-css .search-panel__filters {
+    margin-right: 0%;
+    width: 16%;
+    margin-left: 1%;
+  }
+  body.page.im-deals-vue-filters-css label.featured-checkbox.lbl {
+    top: 28%;
+  }
+  body.page.im-deals-vue-filters-css .widget-heading-wrap h4.widget-heading {
+    margin-left: 10%;
+    padding-right: 42px;
+  }
+  .im-deals .flex-footer {
+    padding: 10px;
+  }
+  .im-deals .deal-button button,
+  .deal-widget-wrapper button {
+    letter-spacing: 0px;
+  }
+  .browse-deals-button .button .icon-right,
+  .im-deals .deal-button button .icon-right {
+    padding-left: 0px;
+  }
+  .coupon-code-label {
+    left: -1px;
+    min-width: 67%;
+  }
+  .coupon-code-label::after {
+    right: -42px;
+  }
+  body.page.im-deals-vue-filters-css .search-panel__header .finder {
+    width: 18.5%;
+  }
+  body.page.im-deals-vue-filters-css .ais-Autocomplete {
+    width: 52%;
+  }
+  body.page.im-deals-vue-filters-css .ais-SortBy {
+    margin-left: 3.3%;
+    width: 24.7%;
+  }
+  body.page.im-deals-vue-filters-css .deal-details h3 a span,
+  body.page.im-deals-vue-filters-css .deal-details h3 {
+    font-size: 1.2rem;
+  }
+  .im-deals .short-description {
+    font-size: 1rem;
+  }
+  body.page.im-deals-vue-filters-css p.deal-count {
+    font-size: 0.9rem;
+  }
+}
+@media all and (max-width: 1269px) {
+  body.page.im-deals-vue-filters-css #searchbar i {
+    left: 6%;
+  }
+
+  body.page.im-deals-vue-filters-css #searchbar .search-field {
+    padding-left: 15%;
+  }
+
+  body.page.im-deals-vue-filters-css .col-lg-4 {
+    width: 50%;
+  }
+
+  body.page.im-deals-vue-filters-css .ais-Autocomplete {
+    width: 35.7%;
+  }
+
+  body.page.im-deals-vue-filters-css .ais-SortBy {
+    width: 35.6%;
+    margin-left: 2.8%;
+  }
+
+  body.page.im-deals-vue-filters-css .im-deals .deal-details {
+    height: unset;
+  }
+}
+
+@media all and (max-width: 1124px) {
+  body.page.im-deals-vue-filters-css #searchbar .search-field {
+    padding-left: 18%;
+  }
+
+  body.page.im-deals-vue-filters-css .widget-heading-wrap h4.widget-heading {
+    padding-right: 45px;
+  }
+}
+
+@media all and (max-width: 992px) {
+  body.page.im-deals-vue-filters-css .coupon-code-label::after {
+    border-top: 53px solid transparent;
+  }
+}
+
+@media all and (max-width: 974px) {
+  body.page.im-deals-vue-filters-css #searchbar .search-field {
+    padding-left: 20%;
+  }
+
+  body.page.im-deals-vue-filters-css .search-panel__header .finder h3 {
+    margin-left: 20%;
+    margin-top: 8.5%;
+  }
+
+  body.page.im-deals-vue-filters-css .search-panel__header .finder {
+    width: 28%;
+  }
+
+  body.page.im-deals-vue-filters-css .ais-Autocomplete {
+    width: 33%;
+  }
+
+  body.page.im-deals-vue-filters-css .ais-SortBy {
+    width: 33%;
+    margin-left: 4%;
+  }
+
+  body.page.im-deals-vue-filters-css .search-panel__filters {
+    width: 22%;
+  }
+}
+
+@media all and (max-width: 910px) {
+  body.page.im-deals-vue-filters-css .col-lg-4 {
+    width: 100%;
+  }
+
+  body.page.im-deals-vue-filters-css .search-panel__filters {
+    width: 35%;
+  }
+
+  body.page.im-deals-vue-filters-css .middle-bar {
+    width: 92%;
+    margin-left: 4%;
+  }
+
+  body.page.im-deals-vue-filters-css .selected-categories {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  body.page.im-deals-vue-filters-css .middle-bar .total-results {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  body.page.im-deals-vue-filters-css .search-panel__header {
+    display: block;
+  }
+
+  body.page.im-deals-vue-filters-css .search-panel__header .finder {
+    width: 100%;
+  }
+
+  body.page.im-deals-vue-filters-css .search-panel__header .finder h3 {
+    margin-left: 0;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  body.page.im-deals-vue-filters-css .ais-Autocomplete,
+  body.page.im-deals-vue-filters-css .ais-SortBy {
+    width: 96%;
+    margin-left: 2%;
+  }
+}
+
+@media all and (max-width: 768px) {
+}
+
+@media all and (max-width: 559px) {
+  body.page.im-deals-vue-filters-css .middle-bar {
+    width: 88%;
+    margin-left: 6%;
+    margin-top: 25px;
+  }
+
+  body.page.im-deals-vue-filters-css .main-search-area {
+    display: block;
+  }
+
+  body.page.im-deals-vue-filters-css .search-panel__filters {
+    width: 88%;
+    margin-left: 6%;
+  }
+
+  body.page.im-deals-vue-filters-css .ais-Autocomplete,
+  body.page.im-deals-vue-filters-css .ais-SortBy {
+    width: 88%;
+    margin-left: 6%;
+  }
+}
+
+@media screen and (min-width: 911px) {
+  body.page.im-deals-vue-filters-css .selected-categories {
+    width: 70%;
+  }
+
+  body.page.im-deals-vue-filters-css .middle-bar .total-results {
+    width: 28.2%;
+  }
+}
+
+/* Media Queries For Responsive Screens Ends */
+/* Smartphones (portrait and landscape) ---------- */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  /* styles */
+}
+
+/* Smartphones (portrait) ---------- */
+@media screen and (max-width: 320px) {
+  /* styles */
+}
+
+/* Smartphones (landscape) ---------- */
+@media screen and (min-width: 321px) {
+  /* styles */
+}
+
+/* Tablets, iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* styles */
+}
+
+/* Tablets, iPads (portrait) ---------- */
+@media screen and (min-width: 768px) {
+  /* styles */
+}
+
+/* Tablets, iPads (landscape) ---------- */
+@media screen and (min-width: 1024px) {
+  /* styles */
+}
+
+/* Desktops and laptops ---------- */
+@media screen and (min-width: 1224px) {
+  /* styles */
+}
+
+/* Large screens ---------- */
+@media screen and (min-width: 1824px) {
+  /* styles */
+}
+
+.deal-limited-time-block {
+  border-radius: 0;
+  width: 100%;
+  position: absolute;
+  background-color: #c22f0f;
+  bottom: -6px
+}
+
+.deal-limited-time-block-2 {
+  border-radius: 0;
+  width: 100%;
+  position: static;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #cecece;
+}
+
+.deal-limited-time-block .deal-limited-time-text,
+.deal-limited-time-block-2 .deal-limited-time-text {
+  padding: 5px 0;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+}
+
+.deal-limited-time-block-2 .deal-limited-time-text {
+  color: #02bb82 !important;
+}
+
+.deal-limited-time-block-2 .hours,
+.deal-limited-time-block-2 .minutes,
+.deal-limited-time-block-2 .seconds {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.deal-limited-timer {
+  display: inline-block;
+  line-height: 1;
+  padding: 5px 10px 5px 10px;
+  font-size: 20px;
+}
+
+.deal-limited-timer span {
+  display: block;
+  font: normal;
+  color: #181818;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 400;
+}
+img.deal-pinned-icon {
+  width: 30px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  z-index: 1;
+}
+#main .deal-limited-time-block-2 {
+  display: none;
+}
+/* on home page deal image*/
+img.promo-image {
+  margin-bottom: -8px;
+}
+.deal-limited-time-block-2 h3 {
+  margin-bottom: 0px;
+}
+/* Tablets, iPads (portrait) ---------- */
+@media screen and (max-width: 768px) {
+  img.deal-pinned-icon {
+    right: 20px;
+    top: 20px;
+  }
+}
+.menu-item .fa-youtube {
+  padding-left: 5px;
+}
+.icons-white-stroke {
+  border: 8px #ffffff solid !important;
+  border-radius: 9999px !important;
+  box-shadow: 0 0 #0000, 0 0 #0000, 0 10px 15px -3px rgb(0 0 0 / 10%),
+    0 4px 6px -2px rgb(0 0 0 / 5%) !important;
+}
+.userful-resource-img {
+  right: 0px !important;
+}
+body.page.im-deals-vue-filters-css .ais-RefinementList ul {
+  margin-left: 5%;
+}
+.category-count {
+  vertical-align: top;
+  width: 16% !important;
+  display: inline-block;
+}
+.category-accordion .ais-refinement-list-labelText {
+  width: 70% !important;
+  display: inline-block;
+}
+.category-accordion .ais-refinement-list-checkbox {
+  width: 10% !important;
+  height: auto;
+}
+.category-accordion .ais-refinement-list-label {
+  width: 100% !important;
+}
+
+@media screen and (min-width: 1140px) {
+  .img-deal-brand {
+    right: 25px !important;
+    bottom: 19px !important;
+    top: 28px;
+    max-width: 40px !important;
+    height: 40px !important;
+  }
+  .userful-resource-img {
+    top: 25px !important;
+  }
+  .img-deal-brand img {
+    max-width: 40px !important;
+    height: 40px !important;
+  }
+}
+.im-deals .deal-icon {
+  position: absolute;
+  right: 0px;
+  background: none;
+}
+.card-body, .link-promo-img {
+  position: relative;
+}
+.im-deals .deal-categories {
+  margin-top: 0px;
+}

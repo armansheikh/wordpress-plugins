@@ -1,0 +1,39 @@
+{
+  "name": "my-project",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "Zohaib Tariq <se.zohaib@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules",
+    "watch": "npm run development -- --watch"
+  },
+  "dependencies": {
+    "core-util-is": "^1.0.2",
+    "moment": "^2.29.1",
+    "vue": "^2.6.11",
+    "vue-resource": "^1.5.1",
+    "vue-scroll-loader": "^2.2.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "vue-loader": "^13.7.3",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.11.5"
+  }
+}
